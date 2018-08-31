@@ -1,0 +1,84 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+    color: #666666;
+}
+
+.header {
+    background: linear-gradient(black, white), url(Header.jpg);
+    background-size: cover;
+    height: 172px;
+    line-height: 90px;
+    background-blend-mode: screen;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header h1 {
+    margin: 20px 0;
+    display: inline-block;
+    color: black;
+    font-size: 40px;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 0 10px;
+    max-width: 800px;
+}
+
+.details {
+    margin-top: 40px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-row>input {
+    flex: 1;
+    margin-left: 10px;
+    height: 30px;
+    color: #ADD4CB;
+    caret-color: black;
+    font-size: inherit;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px dashed gray;
+    outline: none;
+}
+
+.form-row>input:focus {
+    border-bottom: 2px solid #ADD4CB;
+}
+
+.form-row>input::placeholder {
+    color: #eeeeee;
+}
+
+.form-row>input, .form-row>span {
+    line-height: 30px;
+}
+
+.submit {
+    background-color: #ADD4CB;
+    color: white;
+    text-align: center;
+    display: block;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 9px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px auto;
+}
+
+.submit:hover {
+    background-color: rgb(110, 209, 186);
+    transition: .3s ease-in-out all;
+}

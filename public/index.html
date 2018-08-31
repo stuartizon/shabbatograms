@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shabbatograms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="header">
+            <!-- <h1>CAMP MONROE</h1> -->
+            <h1>Shabbatograms</h1>
+        </div>
+        <div class="container">
+            Shabbat Shalom! In the spirit of holding onto tradition, this digital Shabbatogram can be sent to friends and family in order
+            to remind us of Monroe and brighten someone's day.
+
+            <form class="details" action="/send" method="POST">
+                <!-- <div class="form-row">
+                    Who are you sending this to?
+                    <input name="email" type="email" />
+                </div> -->
+
+
+                <div class="form-row"><span>Dear </span><input name="to" placeholder="Josh" required /><span>,</span></div>
+                <div class="form-row"><span>I hope that you had a </span><input name="hopeYourWeekWas" placeholder="great"
+                        required /><span> week.</span>
+                </div>
+                <div class="form-row"><span>Mine was </span><input name="myWeekWas" placeholder="awesome" required /><span>.</span></div>
+                <div class="form-row"><span>The best part was </span><input name="theBestPart" placeholder="winning the Stanley Cup"
+                        required /><span>.</span></div>
+                <div class="form-row"><span>I just wanted to tell you that </span><input name="wantToTellYouThat" placeholder="you're a great friend"
+                        required maxlength="50" /><span>.</span></div>
+                <div class="form-row"><span>I hope that your shabbat is </span><input name="hopeYourShabbatIs" placeholder="inspiring"
+                        required /><span>.</span></div>
+                <div class="form-row"><input name="signOff" placeholder="Enjoy your shabbat" required /><span>,</span></div>
+                <div class="form-row"><input name="from" placeholder="Ben" autocomplete="given-name" required /></div>
+
+                <button class="submit" type="submit">Send</button>
+                <!-- <div style="text-align: center">
+                    <button type="submit">Send</button>
+                </div> -->
+            </form>
+        </div>
+    </body>
+</body>
+
+</html>

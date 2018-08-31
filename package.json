@@ -1,0 +1,25 @@
+{
+  "name": "shabbatograms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stuart Izon",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node ./src/Index.ts"
+  },
+  "dependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/pdfkit": "^0.7.36",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pdfkit": "^0.8.3",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
