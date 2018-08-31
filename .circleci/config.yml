@@ -5,4 +5,5 @@ jobs:
       - image: circleci/python:3.7.0
     steps:
       - checkout
-      - run: pip install awsebcli --upgrade --user
+      - run: pip install awsebcli
+      - run: eb deploy
