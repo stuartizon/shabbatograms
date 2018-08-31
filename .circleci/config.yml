@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:10.9.0
+      - image: circleci/python:3.7.0
     steps:
       - checkout
-      - run: sudo apt-get -y awscli
+      - run: pip install awsebcli --upgrade --user
