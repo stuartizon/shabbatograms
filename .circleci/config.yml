@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: sudo pip install awsebcli
-      - run: eb deploy
+      - run: eb deploy shabbatograms-uat
