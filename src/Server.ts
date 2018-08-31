@@ -14,5 +14,5 @@ export function Server(port: number) {
 
     app.use(express.static('public'));
 
-    app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+    app.listen(port, () => console.log(`Shabbatograms started on port ${port}!`));
 }

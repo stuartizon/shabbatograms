@@ -1,3 +1,4 @@
 import { Server } from "./Server";
 
-Server(8000);
+const port = parseInt(process.env.PORT) || 8000;
+Server(port);
