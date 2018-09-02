@@ -10,6 +10,8 @@ export function Server(port: number) {
 
     app.post('/send', (req, res) => {
         const text = convertRequestToText(req.body);
+        res.setHeader('Content-Type', 'application/pdf');
+        res.setHeader('Content-Disposition', 'attachment; filename=shabbatogram.pdf')
         writePDF(text, res);
     });
 
