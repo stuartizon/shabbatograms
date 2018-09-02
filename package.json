@@ -1,7 +1,6 @@
 {
   "name": "shabbatograms",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Stuart Izon",
   "license": "MIT",
   "private": true,
