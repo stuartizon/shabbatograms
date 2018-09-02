@@ -12,7 +12,7 @@ export function Server(port: number) {
         writePDF(text, res);
     });
 
-    // app.use(express.static('public'));
+    app.use(express.static('public'));
 
     app.listen(port, () => console.log(`Shabbatograms started on port ${port}!`));
 }
