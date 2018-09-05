@@ -9,3 +9,7 @@ export interface ShabbatogramRequest {
     hopeYourShabbatIs: string;
     signOff: string;
 }
+
+export interface TextItem extends PDFKit.Mixins.TextOptions {
+    text: string;
+}
